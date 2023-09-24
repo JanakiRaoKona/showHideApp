@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 46px;
+  text-align: center;
+}
+.button {
+  height: 34px;
+  width: 190px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #dd1264;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.name-card {
+  background-color: #fddddb;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-size: 26px;
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: 600;
+}
+.sub-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.co-measure {
+  height: 200px;
+  width: 300px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .medium-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
